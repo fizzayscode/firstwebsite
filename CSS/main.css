@@ -1,0 +1,142 @@
+#landing-page {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to top,
+      rgba(7, 102, 7, 0.4),
+      rgba(7, 102, 7, 0.4),
+      rgba(7, 102, 7, 0.4)
+    ),
+    url("/images/mainwallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 35vh;
+  overflow: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/**
+css for services
+*/
+#services {
+  min-height: 100vh; /*minimum height for smaller devices*/
+  height: 100vh;
+  margin: 4.5em 20px;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+#services .service img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#products {
+  min-height: 100vh;
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+}
+
+#products .product img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+#products .product {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+#products h4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-weight: 700;
+}
+#products .product:hover img {
+  filter: brightness(1);
+  transform: scale(1.05, 1.05);
+  transition: filter 0.5s ease-in;
+}
+
+#products .product:hover h4 {
+  color: black;
+}
+
+#about {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.about-section img {
+  width: 350px;
+  height: 200px;
+}
+
+.about-section h2 {
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.about-section .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*for my footer*/
+
+#footer .icofont {
+  font-size: 25px;
+  padding-right: 17px;
+}
+
+#footer .social-icons a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#contact-us {
+  min-height: 100vh;
+  padding-top: 16vh;
+  padding-bottom: 16vh;
+}
+
+#about {
+  min-height: 100vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#footer .social-icons a {
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#footer .social-icons a .icofont {
+  font-size: 20px;
+}
