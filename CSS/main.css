@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@500&family=Teko:wght@300&display=swap");
+
 #landing-page {
   min-height: 100vh;
   width: 100%;
@@ -7,7 +9,7 @@
       rgba(7, 102, 7, 0.4),
       rgba(7, 102, 7, 0.4)
     ),
-    url("./images/mainwallpaper.jpg");
+    url("../images/mainwallpaper.jpg");
   background-position: center;
   background-size: cover;
   background-position: center;
@@ -20,11 +22,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 p {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /**
